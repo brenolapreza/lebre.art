@@ -5,7 +5,6 @@ export const HomeWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   min-height: 90vh;
-  flex-wrap: wrap;
 
   h1 {
     font-size: 3rem;
@@ -13,6 +12,7 @@ export const HomeWrapper = styled.div`
 
   @media (max-width: 786px) {
     justify-content: center;
+    flex-wrap: wrap;
 
     h1 {
       font-size: 2rem;
