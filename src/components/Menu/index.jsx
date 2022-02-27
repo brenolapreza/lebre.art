@@ -13,7 +13,7 @@ export const MenuComponent = () => {
   return (
     <>
       <S.MenuIcon onClick={handleClickMenu}>
-        {menu === true ? <IoMdMenu size={22} /> : <IoMdClose size={22} />}
+        {menu === true ? <IoMdMenu size={32} /> : <IoMdClose size={32} />}
       </S.MenuIcon>
       <S.MenuWrapper
         className={menu === true ? 'menuOpen' : 'menuClose'}
